@@ -41,7 +41,7 @@ from main import convert_multiline_fasta_to_oneline
 
 convert_multiline_fasta_to_oneline("data/seq.fasta", "data/seq_one_line.fasta")
 ```
-###parse_blast_output(input_file, output_file)
+### parse_blast_output(input_file, output_file)
 
 Extracts the best-hit description per query from a BLAST txt report, deduplicates and writes them alphabetically to output_file.
 
