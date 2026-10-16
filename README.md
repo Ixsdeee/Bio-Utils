@@ -9,8 +9,7 @@ A small collection of pure-Python utilities for working with biological files: F
     ├── helpers/
     │   ├── fastq.py         # FASTQ helpers
     │   └── bio_files.py     # file helpers
-    ├── data/                # example inputs
-    └── filtered/            # output for filter_fastq (auto-created)
+    └── README.md
 
 ## Functions
 
