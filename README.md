@@ -16,7 +16,7 @@ A small collection of pure-Python utilities for working with biological files: F
 
 ### `filter_fastq(input_fastq, output_fastq, gc_bounds=(0, 100), length_bounds=(0, 2**32), quality_threshold=0)`
 
-Filters a FASTQ file by GC content, length and average read quality. Reads one record at a time (streaming).
+Filters a FASTQ file by GC content, length and average read quality. Reads one record at a time.
 
 - `gc_bounds`, `length_bounds` — tuple or single number (single number = upper bound, lower = 0).
 - `quality_threshold` — Phred+33 average quality threshold.
@@ -51,7 +51,7 @@ from main import parse_blast_output
 
 parse_blast_output("data/example_blast_results.txt", "top_hits.txt")
 ```
-##Requirements
+## Requirements
 Python 3.10+ (uses str | None annotations). Standard library only.
 
 
